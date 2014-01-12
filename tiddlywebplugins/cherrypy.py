@@ -10,6 +10,7 @@ To use this add the following to tiddlywebconfig.py:::
 
     'wsgi_server': 'tiddlywebplugins.cherrypy'
 """
+from __future__ import absolute_import
 
 import logging
 import sys

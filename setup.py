@@ -17,7 +17,7 @@ Topic :: Internet :: WWW/HTTP :: WSGI
 
 META = {
     'namespace_packages': ['tiddlywebplugins'],
-    'name': 'tiddlywebplugins.cherrpy',
+    'name': 'tiddlywebplugins.cherrypy',
     'version': VERSION,
     'description': 'An improved server for TiddlyWeb.',
     'long_description': open(os.path.join(os.path.dirname(__file__), 'README')).read(),
