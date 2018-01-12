@@ -3,14 +3,14 @@ import os
 
 from setuptools import setup, find_packages
 
-VERSION = '0.1.1'
+VERSION = '0.2.0'
 
 CLASSIFIERS = """
 Environment :: Web Environment
 License :: OSI Approved :: BSD License
 Operating System :: OS Independent
 Programming Language :: Python :: 2.7
-Programming Language :: Python :: 3.3
+Programming Language :: Python :: 3.5
 Topic :: Internet :: WWW/HTTP :: WSGI
 """.strip().splitlines()
 
@@ -29,7 +29,7 @@ META = {
     'classifiers': CLASSIFIERS,
     'install_requires': ['setuptools',
         'tiddlyweb',
-        'CherryPy'
+        'Cheroot'
     ],
     'zip_safe': False,
 }
